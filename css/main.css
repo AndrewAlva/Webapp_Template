@@ -1,0 +1,64 @@
+/* Importing all pages styles */
+/* Start register specific style */
+#registerWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0; }
+
+/* Import helpers and snippets */
+/* Auth styles */
+.auth-wrap-background, .auth-inner-background {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+
+.auth-copyrights {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 12px;
+  line-height: 14px; }
+
+.auth-inner {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 628px;
+  height: 528px;
+  border-radius: 4px;
+  overflow: hidden; }
+  .auth-inner .auth-brand {
+    position: relative;
+    float: left;
+    width: 228px;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); }
+  .auth-inner .auth-form {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 100%;
+    padding: 30px;
+    background-color: rgba(40, 40, 40, 0.75); }
+
+/* Background styles */
+.background-cover {
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: 50%; }
+
+.background-blurred {
+  -webkit-filter: blur(10px);
+  filter: blur(10px); }
+
+/*# sourceMappingURL=main.css.map */
